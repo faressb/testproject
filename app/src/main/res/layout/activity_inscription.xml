@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.pfe.newapp.Inscription">
+    android:background="#ffffff"
+    android:backgroundTint="#ffffff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Nom"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="@dimen/abc_action_bar_content_inset_material"
+        android:textColor="#5348e4" />
+    <EditText
+        android:id="@+id/etNom"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:textColor="#020000" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Prénom"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="@dimen/abc_action_bar_content_inset_material"
+        android:textColor="#5348e4" />
+    <EditText
+        android:id="@+id/etPrenom"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:textColor="#020000" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Age"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_action_bar_content_inset_material"
+        android:textStyle="bold"
+        android:textColor="#5348e4" />
+    <EditText
+        android:id="@+id/etAge"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:textColor="#040000" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sexe"
+        android:textSize="@dimen/abc_action_bar_content_inset_material"
+        android:textStyle="bold"
+        android:textColor="#5348e4"
+        android:layout_margin="10dp"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etHomme"
+        android:text="Homme"
+        android:textStyle="bold"/>
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etFemme"
+        android:text="Femme"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/etInscri"
+        android:text="S'inscrire"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#fdfafa"
+        android:textStyle="bold"
+        android:background="#c4acac" />
+
+</LinearLayout>
+
+
+
